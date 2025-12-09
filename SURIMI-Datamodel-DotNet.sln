@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SURIMI.Datamodel", "SURIMI.Datamodel\SURIMI.Datamodel.csproj", "{0F227835-51E0-01A6-7110-500E5474CE3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F227835-51E0-01A6-7110-500E5474CE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F227835-51E0-01A6-7110-500E5474CE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F227835-51E0-01A6-7110-500E5474CE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F227835-51E0-01A6-7110-500E5474CE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8B445E0-4F31-4631-A726-84FCB7A98DFC}
+	EndGlobalSection
+EndGlobal

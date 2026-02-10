@@ -6,5 +6,6 @@
         public string? VesselLengthClass { get; set; }
         public string? Scale { get; set; }
         public string? CountryCode { get; set; }
+        public string? Model { get; set; }
     }
 }

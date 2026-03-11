@@ -2,6 +2,6 @@
 {
     public class RegulationDefinitionsSummary
     {
-        public List<TargetFishingMortality> TotalAllowableCatches { get; set; } = new List<TargetFishingMortality>();
+        public List<TargetFishingMortality> TargetFishingMortalities { get; set; } = new List<TargetFishingMortality>();
     }
 }

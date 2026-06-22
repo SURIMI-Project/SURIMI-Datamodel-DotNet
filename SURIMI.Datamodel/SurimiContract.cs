@@ -1,7 +1,6 @@
 ﻿namespace SURIMI.Datamodel
 {
-    [Obsolete("SurimiConfiguration is deprecated. Use SurimiContract instead.", false)]
-    public class SurimiConfiguration
+    public class SurimiContract
     {
         public Simulation? Simulation { get; set; }
         public Standards? Standards { get; set; }

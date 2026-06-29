@@ -4,7 +4,8 @@
     {
         public required string SpeciesCode { get; set; }
         public required string GearCode { get; set; }
-        public double Quantity = 2;
-        public double Value = 3;
+        public double Quantity { get; set; }
+        public required string CategoryCode { get; set; }
+        public double Value { get; set; }
     }
 }

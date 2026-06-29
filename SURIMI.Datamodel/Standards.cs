@@ -9,6 +9,7 @@
         public string? MarketCode { get; set; }
         public string? Currency { get; set; }
         public string? CountryCode { get; set; }
+        public string? CategoryCode { get; set; }
         public Measurement? Measurements { get; set; }
     }
 }

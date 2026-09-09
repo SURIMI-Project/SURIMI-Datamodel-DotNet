@@ -2,8 +2,8 @@
 {
     public class SurimiContract
     {
-        public Simulation? Simulation { get; set; }
-        public Standards? Standards { get; set; }
-        public Items? Items { get; set; }
+        public required Simulation Simulation { get; set; }
+        public required Standards Standards { get; set; }
+        public required Items Items { get; set; }
     }
 }
